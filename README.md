@@ -1,29 +1,29 @@
 # Flora Bella
 
-Site institucional est?tico em portugu?s, com cat?logo de seis flores, fotografias reais, busca, filtros e informa??es bot?nicas.
+Site institucional estático em português, com catálogo de seis flores, fotografias reais, busca, filtros e informações botânicas.
 
-## Publica??o
+## Publicação
 
 Em **Settings > Pages**, escolha **Deploy from a branch**, branch **main**, pasta **/ (root)** e clique em **Save**.
 
-Endere?o previsto ap?s ativa??o: https://dioceliojunior.github.io/flora-bella/
+Endereço previsto após ativação: https://dioceliojunior.github.io/flora-bella/
 
 ## Desenvolvimento
 
-Abra `index.html` em um navegador. N?o h? instala??o de depend?ncias nem etapa de build.
+Abra `index.html` em um navegador. Não há instalação de dependências nem etapa de build.
 
 - `js/configuracao.js`: identidade, cores e canais de contato.
-- `js/produtos.js`: dados, fotos e fontes bot?nicas.
+- `js/produtos.js`: dados, fotos e fontes botânicas.
 - `css/estilos.css`: estilos responsivos.
 - `assets/imagens/`: fotografias locais.
-- `assets/fontes/`: Google Material Symbols e licen?a Apache 2.0.
+- `assets/fontes/`: Google Material Symbols e licença Apache 2.0.
 
-O WhatsApp permanece em modo de demonstra??o at? cadastrar um n?mero real em `js/configuracao.js`.
+O WhatsApp permanece em modo de demonstração até cadastrar um número real em `js/configuracao.js`.
 
-## Cr?ditos
+## Créditos
 
-Fotografias e informa??es bot?nicas: [NC State Extension Plant Toolbox](https://plants.ces.ncsu.edu/). A autoria, a identifica??o e a licen?a de cada fotografia est?o nas fichas das flores.
+Fotografias e informações botânicas: [NC State Extension Plant Toolbox](https://plants.ces.ncsu.edu/). A autoria, a identificação e a licença de cada fotografia est?o nas fichas das flores.
 
-?cones: [Google Material Symbols](https://developers.google.com/fonts/docs/material_symbols), sob licen?a Apache 2.0. Fontes de texto fornecidas pelo Google Fonts.
+Ícones: [Google Material Symbols](https://developers.google.com/fonts/docs/material_symbols), sob licença Apache 2.0. Fontes de texto fornecidas pelo Google Fonts.
 
-A marca Flora Bella ? demonstrativa. O cat?logo apresenta flores e n?o confirma disponibilidade comercial.
+A marca Flora Bella é demonstrativa. O catálogo apresenta flores e não confirma disponibilidade comercial.

@@ -100,9 +100,9 @@
       <div class="detail-copy">
         <span class="eyebrow">${escapar(f.categoria.toUpperCase())} · FLORA BELLA</span>
         <h2 id="detalheTitulo">${escapar(f.nome)}</h2>
-        <p><i>${escapar(f.cientifico)}</i> ? Fam?lia ${escapar(f.familia)}</p>
+        <p><i>${escapar(f.cientifico)}</i> · Família ${escapar(f.familia)}</p>
         <p>${escapar(f.detalhes || f.descricao)}</p>
-        <p class="photo-credit">Fotografia: ${escapar(f.credito)} ? <a href="${escapar(f.licencaUrl)}" target="_blank" rel="noopener noreferrer">${escapar(f.licenca)}</a><br>Identifica??o na fonte: ${escapar(f.identificacaoFoto)}<br><a href="${escapar(f.fonte)}" target="_blank" rel="noopener noreferrer">Fonte bot?nica e fotografia: NC State Extension</a></p>
+        <p class="photo-credit">Fotografia: ${escapar(f.credito)} · <a href="${escapar(f.licencaUrl)}" target="_blank" rel="noopener noreferrer">${escapar(f.licenca)}</a><br>Identificação na fonte: ${escapar(f.identificacaoFoto)}<br><a href="${escapar(f.fonte)}" target="_blank" rel="noopener noreferrer">Fonte botânica e fotografia: NC State Extension</a></p>
         <p class="detail-warning">${icone('flower')} Imagem ilustrativa. ${escapar(config.entrega || 'Consulte as opções disponíveis.')}</p>
         <div class="detail-cta">
           <button class="btn btn-primary" data-consultar="${f.id}">${icone('whatsapp')} Consultar pelo WhatsApp</button>
